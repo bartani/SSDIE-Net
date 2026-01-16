@@ -5,7 +5,7 @@ import torch
 from torchvision.utils import save_image
 
 def test():
-    gen, _, _ = init_PTC_GEN()
+    gen, _, _ = init_UNET()
     gen.eval()
 
     loader = get_testdata()
@@ -19,4 +19,5 @@ def test():
             save_image(can, f"{config.ENHANCED_OUTPUT_PATH}/dest_free_ptc_{idx}.png")
 
 if __name__ == "__main__":
+
     test()
