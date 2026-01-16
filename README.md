@@ -49,6 +49,32 @@ Please pot downloaded files in the path "checkpoints/" and ensure that in the co
 LOAD_checkpoints = True
 ```
 
+## Test Model
+To test model:
 
+1: Please download the checkpoints form: [download link](https://drive.google.com/file/d/1ojkN5Dz9SZ6G8yd6wirxs4w2izOVGDzU/view?usp=sharing). 
 
+2: in the config.py:
+```
+LOAD_checkpoints = True
+```
 
+3: Please put your images in the "datasets/test/" path Or change test path from in "config.py"
+```
+TEST_PATH = "datasets/test"
+```
+
+4: run the "test.py". 
+
+you can finde the model output in "outcomes/enhanced" path. Moreover, you can change the outputs path from in "config.py"
+```
+ENHANCED_OUTPUT_PATH = "outcomes/enhanced"
+```
+
+## Citation
+If you use this code or the method in your research, please cite our paper:
+```
+We share our citation after published paper
+```
+## Contacts
+For any inquiries contact Ako Bartani: <a href="mailto:a.bartani@uok.ac.ir">a.bartani [at] uok.ac.ir</a>
