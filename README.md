@@ -32,6 +32,11 @@ datasets/
 └── test
 ```
 
-
+You can use the same structure for your dataset. For this, you should change the path of the training and test data in the "config.py".
+```
+DUST_PATH = "datasets/train/dust"
+CLEAN_PATH ="datasets/train/clean"
+TEST_PATH = "datasets/test"
+```
 
 
