@@ -39,4 +39,16 @@ CLEAN_PATH ="datasets/train/clean"
 TEST_PATH = "datasets/test"
 ```
 
+## Train Model
+If you want to train the model on your data, please warm up the generator and dc-Net using your dataset. To this end, run the "pre_train_Model.py" and "pre_train_dark_channel.py" using new data. Next, run the "train.py" on new dataset.
+
+Otherwise, you can use pre-trained weights on defined dataset. You can download the checkpoints form: [download link](https://drive.google.com/file/d/1ojkN5Dz9SZ6G8yd6wirxs4w2izOVGDzU/view?usp=sharing). 
+
+Please pot downloaded files in the path "checkpoints/" and ensure that in the config.py: 
+```
+LOAD_checkpoints = True
+```
+
+
+
 
