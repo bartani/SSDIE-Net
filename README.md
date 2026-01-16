@@ -22,7 +22,7 @@ This paper proposed a semi-supervised sand-dust image enhancement method, SSDIE-
 ## Dataset preparation
 The dataset structure is illustrated in the following block. The training dataset consists of two folder of real-world sand-dust "dust" and clean images along with their depth maps "clean". We used a subset of COCO images as clean image. For generaing depth map of clean images, we used "depth network" project. Moreover, for testing phase, you can put your sand-dust images in the test folder.
 
-You can download our dataset using [dataset download link] https://drive.google.com/file/d/1BUQ9_QzPyAYzJESfo7UqzxpJ7pwQnHuy/view?usp=sharing). 
+You can download our dataset using [dataset download link] (https://drive.google.com/file/d/1BUQ9_QzPyAYzJESfo7UqzxpJ7pwQnHuy/view?usp=sharing). 
 
 ```
 datasets/
