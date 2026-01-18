@@ -74,7 +74,7 @@ ENHANCED_OUTPUT_PATH = "outcomes/enhanced"
 ## Citation
 If you use this code or the method in your research, please cite our paper:
 ```
-We share our citation after published paper
+We share our citation after publishing paper
 ```
 ## Contacts
 For any inquiries contact Ako Bartani: <a href="mailto:a.bartani@uok.ac.ir">a.bartani [at] uok.ac.ir</a>
