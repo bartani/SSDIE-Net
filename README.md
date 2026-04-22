@@ -74,7 +74,14 @@ ENHANCED_OUTPUT_PATH = "outcomes/enhanced"
 ## Citation
 If you use this code or the method in your research, please cite our paper:
 ```
-We share our citation after publishing paper
+@article{qadir2026semi,
+  title={Semi-Supervised Sand-Dust Image Enhancement via Attention-Driven Multi-Scale Feature Fusion Network},
+  author={Qadir, Mohammed Shamsaddin and Bartani, Ako and Mohammed, Marwan Aziz and Daneshfar, Fatemeh},
+  journal={Digital Signal Processing},
+  pages={106093},
+  year={2026},
+  publisher={Elsevier}
+}
 ```
 ## Contacts
 For any inquiries contact Ako Bartani: <a href="mailto:a.bartani@uok.ac.ir">a.bartani [at] uok.ac.ir</a>
